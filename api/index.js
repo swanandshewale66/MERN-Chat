@@ -34,7 +34,7 @@ app.get("/profile", (req, res) => {
       });
     });
   }else{
-    res.status(401).json("No token")
+    res.status(401).json("No token present")
   }
 });
 
